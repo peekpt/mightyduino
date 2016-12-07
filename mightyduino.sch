@@ -35,8 +35,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "Mightyduino"
-Date "2016-11-21"
-Rev "1.0"
+Date "2016-12-7"
+Rev "1.1"
 Comp "dev76.org"
 Comment1 "Mightyduino is an arduino based on Atmega 644p/1024p "
 Comment2 ""
@@ -592,7 +592,7 @@ F 3 "" H 4850 7350 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 4400 6400 0    59   Italic 0
-D13
+D0
 $Comp
 L CONN_01X06 P2
 U 1 1 5842194B
@@ -617,7 +617,7 @@ RX
 Text Label 8800 2000 2    60   ~ 0
 RAW
 Text Notes 8900 2000 0    43   ~ 0
-4-16v
+<16v
 $Comp
 L GND #PWR018
 U 1 1 58422776
@@ -982,8 +982,10 @@ F 3 "" H 2850 7200 50  0000 C CNN
 $EndComp
 Wire Wire Line
 	2850 7200 2850 7150
-Text Notes 4700 6100 0    60   ~ 0
-U1\n  MIC5219-3.3YM5  -> 3.3v core\n  MIC5219-5.0YM5  -> 5v core\n\nX1\n  CSTCE 16MOV53-R0  4-20Mhz
+Text Notes 8750 6300 0    60   ~ 0
+U1\n  MIC5219-xxYM5  -> xx = voltage 1.8->5v\n  \nX1\n  CSTCE 16MOV53-R0  4-20Mhz
 Wire Wire Line
 	1400 6600 1950 6600
+Text Notes 700  6250 0    60   ~ 0
+RAW -> input voltage before the voltage regulator \nVCC -> output voltage of the regulator, IC voltage
 $EndSCHEMATC

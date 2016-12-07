@@ -1,0 +1,12 @@
+Qty,partname,description,lib
+0,"APE8865Y5-12-HF-3","300 mA Low Dropout Voltage Regulator, Fixed Output 1.2V, SOT-23-5","regul"
+0,"ATMEGA164P-A","TQFP44, 16k Flash, 1k SRAM, 512k EEPROM, JTAG","atmel"
+0,"CONN_01X06","Connector, single row, 01x06","conn"
+0,"CONN_01X18","Connector, single row, 01x18","conn"
+0,"CP1_Small","Polarised capacitor","device"
+0,"CRYSTAL_SMD","","device"
+0,"C_Small","Unpolarized capacitor","device"
+0,"F_Small","Fuse","device"
+0,"Led_Small","Led","device"
+0,"R_Small","Resistor","device"
+0,"SW_PUSH","Button","device"
