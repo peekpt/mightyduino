@@ -1,10 +1,10 @@
 %TF.GenerationSoftware,KiCad,Pcbnew,4.0.4-stable*%
-%TF.CreationDate,2016-12-07T16:46:42+00:00*%
-%TF.ProjectId,mightyduino,6D69676874796475696E6F2E6B696361,1.1*%
+%TF.CreationDate,2016-12-09T18:56:54+00:00*%
+%TF.ProjectId,mightyduino,6D69676874796475696E6F2E6B696361,1.2*%
 %TF.FileFunction,Soldermask,Top*%
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW 4.0.4-stable) date Wednesday, 07 '07e' December '07e' 2016, 16:46:42*
+G04 Created by KiCad (PCBNEW 4.0.4-stable) date Friday, 09 '09e' December '09e' 2016, 18:56:54*
 %MOMM*%
 %LPD*%
 G01*
