@@ -12,6 +12,7 @@ Then you can access (ttl-serial dongle) like a normal arduino on the serial pins
 
 
 ###Version History
+- v1.3 - Changed C1 C3 footprint, add reset pin for SPI programming.
 - v1.2 - Switch U1 shutdown pin 3 voltage to RAW
 - v1.1 - Switched Led from pin D13 to D0, cosmetic improvements
 - v1.0 - Initial release
@@ -20,7 +21,7 @@ Then you can access (ttl-serial dongle) like a normal arduino on the serial pins
 ###Quick Links:
 
 Order boards from [OSHPark]
-(https://oshpark.com/shared_projects/#[Check the updated version v1.2](https://oshpark.com/shared_projects/AlQZuxWu))
+(https://oshpark.com/shared_projects/#[Check the updated version v1.3](https://oshpark.com/shared_projects/zuZ4OIae))
 
 Or download the [Gerber files](https://github.com/peekpt/mightyduino/raw/master/gerber/gerbers.zip) for other pcb maker
 
