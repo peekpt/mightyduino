@@ -4,7 +4,7 @@ A DIY Arduino type hardware board based on ATmega644p Atmega1284p
 This project is free and based on @MCUDude's [MightyCore](https://github.com/MCUdude/MightyCore) which has awesome well designed kits for serious development with AVR's.
 ![top](https://github.com/peekpt/mightyduino/raw/master/img/3dtop.png)
 
-Mightyduino is an Arduino with more memory than an Arduino Pro mini. It can use 644p (64k) or 1284p (128k) chips. It's voltage can be configured by U1 and the frequecy can be configured by the Murata's ressonator (crystal).
+Mightyduino is an Arduino with more memory than an Arduino Pro mini. It can use 644p (64k) or 1284p (128k) chips. Its voltage can be configured by U1 and the frequecy can be configured by the Murata's ressonator (crystal).
 It has a power led and another one connected to pin D0. The push button performs reset. DTR pin can be used to external reset. The RAW pin is the input voltage **<16v**. The VCC pin is the regulator output and IC voltage, it can be loaded up to peak of **500mA**.
 
 To burn the **bootloader** (optiboot 6.0) you must first install the [MightyCore boards](https://github.com/MCUdude/MightyCore#how-to-install) on Arduino App  , connect the ICSP pins to your bootloader programming hardware (eg. USBASP), select one of MCUDude's board that meet the specs you use and burn bootloader.
