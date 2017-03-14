@@ -21,7 +21,7 @@ Then you can access (ttl-serial dongle) like a normal arduino on the serial pins
 ###Quick Links:
 
 Order boards from [OSHPark]
-(https://oshpark.com/shared_projects/#[Check the updated version v1.3](https://oshpark.com/shared_projects/zuZ4OIae))
+(https://oshpark.com/shared_projects/zuZ4OIae)
 
 Or download the [Gerber files](https://github.com/peekpt/mightyduino/raw/master/gerber/gerbers.zip) for other pcb maker
 
